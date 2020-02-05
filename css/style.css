@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* using col for better better formatting and accessibility */
+/* legend, fieldset and label makes a better accessibility */
+ body{
+     font-size: 1em;
+     line-height: 1.4em;
+     font-family: 'Open Sans', sans-serif;
+}
+ .wrapper {
+     width: 95%;
+     margin-left: auto;
+     margin-right: auto;
+}
+ header {
+     height: 300px;
+     background-color: rgb(0, 0, 0);
+     background-image: url(../img/cloudes.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+    /*display: flex;
+    */
+     align-items: center;
+     justify-content: center;
+     background-position: 50% 20%;
+    /*move the background*/
+     background-attachment: fixed;
+}
+ header > h1{
+     text-align: center;
+     font-size: 1em;
+     text-shadow: 6px 1px 5px #000;
+     margin: 0;
+     color: #eaeaea;
+     position: relative;
+     line-height: 40px;
+     padding: 10px, 50px;
+}
+ header > h2 {
+     text-align: center;
+     font-size: 1em;
+     text-shadow: 6px 1px 5px #000;
+     margin: 0;
+     color: #eaeaea;
+     position: relative;
+    /*line-height: 40px;
+    */
+     padding: 50px, 50px, 50px, 50px;
+}
+ section > h2 {
+     text-shadow: 1px 1px 1px white, 0 0 2px blue, 0 0 1px darkblue;
+}
+ input, label, select{
+     display: block;
+}
+input[type="submit"]{
+     padding: 10px;
+     font-size: 1em;
+     margin: 0;
+     position: relative;
+}
+ fieldset, input{
+     border-style: outset;
+     box-shadow: 0 1px rgb(0,0,0,0.3) inset;
+     width: 70%;
+     height: 100%;
+}
+div #box{
+     display: inline-block;
+     min-height: 200px;
+     width: 70%;
+     overflow: auto;
+     box-shadow: 0 1px rgb(0,0,0,0.3) inset;
+     border-style: outset;
+}
+ /*textarea{
+     overflow: auto;
+     box-shadow: 0 1px rgb(0,0,0,0.3) inset;
+     width: 50%;
+     height: 50%;
+     border-style: outset;
+}*/
+ caption {
+     font-size: 1.2em;
+     text-shadow: 1px 1px 1px white, 0 0 2px blue, 0 0 1px darkblue;
+}
+label{
+  padding: 25px 0 15px 0;
+}
+ table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ table, td, th {
+     border: 1px solid #ddd;
+     text-align: left;
+}
+ caption {
+     padding: 15px;
+}
+ th {
+     background-color: #C5B2B2;
+     color: black;
+}
+ th, td {
+     padding: 20px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;
+}
+ tr:hover {
+     background-color:#f5f5f5;
+}
+ 
